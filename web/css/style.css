@@ -1,14 +1,21 @@
 html {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial;
 }
-.green, a {
+h2 a {
   text-decoration: none;
-  color: darkgreen;
+  color: seagreen;
 }
 
+a {
+  text-decoration: none;
+}
 .hoje {
   color: darkred;
 }
 .amanhã {
   color: darkblue;
+}
+
+p {
+  font-size: 20px;
 }

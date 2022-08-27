@@ -1,9 +1,28 @@
 html {
   font-family: Arial;
 }
+body {
+  margin: 0px;
+  background-color: lightsalmon;
+}
+
+#cinema {
+  color: white;
+  background-image: url(/web/img/poltronadecinema-1240x5401.jpg);
+  padding: 50px;
+  margin: 0;
+  text-align: center;
+}
+h1 {
+  color: aqua;
+}
+h2,
 h2 a {
   text-decoration: none;
   color: seagreen;
+  font-size: 30px;
+  margin: 0px;
+  font-weight: 1.5px;
 }
 
 a {

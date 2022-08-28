@@ -1,5 +1,5 @@
 body {
-  font-family: Arial;
+  font-family: Arial, Helvetica, sans-serif;
   margin: 100px;
 }
 
@@ -8,13 +8,14 @@ h1 {
   padding: 20px;
 }
 div {
-  margin-block-end: 30px;
-  padding: 20px;
-  background-color: black;
+  margin: 20px;
+  padding: 25px;
+  background-color: #111;
   border-radius: 4px;
 }
 h2 {
   color: white;
+  margin: 0px;
 }
 .button {
   border-radius: 4px;
@@ -22,6 +23,7 @@ h2 {
   background: #febe01;
   text-align: center;
   font-size: large;
+  color: #332200;
 }
 .spanSubtxt {
   color: #febe01;

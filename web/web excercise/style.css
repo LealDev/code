@@ -1,0 +1,31 @@
+body {
+  font-family: Arial;
+  margin: 100px;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+}
+div {
+  margin-block-end: 30px;
+  padding: 20px;
+  background-color: black;
+  border-radius: 4px;
+}
+h2 {
+  color: white;
+}
+.button {
+  border-radius: 4px;
+  padding: 5px;
+  background: #febe01;
+  text-align: center;
+  font-size: large;
+}
+.spanSubtxt {
+  color: #febe01;
+}
+p {
+  color: #b2b2b2;
+}

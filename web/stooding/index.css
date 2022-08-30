@@ -1,11 +1,39 @@
-img {
-  max-width: 100%;
-  display: block;
-}
-div {
-  width: 300px;
+body {
+  font-family: Arial;
+  margin: 40px;
 }
 
-.foto {
-  width: 150px;
+h1,
+p {
+  margin: 0px;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 1;
+}
+p,
+span {
+  font-size: 20px;
+}
+img {
+  max-width: 100%;
+}
+.comprar {
+  text-decoration: none;
+  background-color: #a8f;
+  padding: 10px 20px;
+  color: #103;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+.grid {
+  display: grid;
+}
+
+.preco {
+  background: #ddd;
+  padding: 5px 10px;
+  border-radius: 4px;
 }

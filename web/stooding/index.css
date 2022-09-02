@@ -1,8 +1,23 @@
+.grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+}
+.info {
+  display: grid;
+  place-self: start;
+  place-items: start;
+  gap: 20px;
+}
+.titulo {
+  grid-column: 1/-1;
+}
+
+/* Estilos gerais */
 body {
   font-family: Arial;
   margin: 40px;
 }
-
 h1,
 p {
   margin: 0px;
@@ -16,8 +31,10 @@ p,
 span {
   font-size: 20px;
 }
-img {
+
+.foto {
   max-width: 100%;
+  border: radius 4px;
 }
 .comprar {
   text-decoration: none;
@@ -27,11 +44,6 @@ img {
   border-radius: 4px;
   font-size: 20px;
 }
-
-.grid {
-  display: grid;
-}
-
 .preco {
   background: #ddd;
   padding: 5px 10px;

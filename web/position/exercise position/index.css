@@ -1,0 +1,61 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font-family: Arial;
+}
+
+.titulodiv {
+  margin: 40px;
+}
+.titulo {
+  text-align: center;
+}
+.menudiv {
+  padding-bottom: 70px;
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+}
+.menu {
+  text-decoration: none;
+  color: black;
+}
+.blocodiv {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  padding-left: 10%;
+  padding-right: 10%;
+  gap: 20px;
+}
+.bike {
+  width: 100%;
+  grid-column: 2;
+  grid-row: span 2;
+}
+.descricaodiv {
+  grid-row: 1;
+  justify-items: end;
+  text-align: end;
+  align-self: center;
+}
+.divdesc {
+  margin-top: 40px;
+}
+.botao {
+  padding: 10px 20px;
+  text-decoration: none;
+  background: red;
+  color: white;
+  border-radius: 4px;
+  font-weight: bold;
+}
+.treco {
+  font-weight: bold;
+  font-size: 40px;
+  position: relative;
+  color: red;
+  top: -250px;
+  right: -56px;
+}
